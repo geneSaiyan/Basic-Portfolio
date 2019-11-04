@@ -68,6 +68,15 @@ h1 {
     border-radius: 10px;
 }
 
+#portfolio{
+    width: 960px;
+    height: 70%;
+    margin: auto;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    border-radius: 10px;
+}
+
 #contact{
     width: 960px;
     height: 55%;
@@ -77,7 +86,7 @@ h1 {
     border-radius: 10px;
 }
 
-#contact, #about h1 {
+#contact, #about, #portfolio h1 {
     color: #4aaaa5;
 }
 
@@ -107,6 +116,11 @@ h1 {
     display: inline-block;
   border: 1px solid #D9D9D9;
   border-radius: 2px;
+}
+
+.contact-label{
+    color: #777777;
+    font-size: 18px;
 }
 
 #contact-message{
